@@ -15,11 +15,6 @@ export default function NavigationPage({ totalpage, page }) {
     const router = useRouter();
     let router_url = router.asPath;
     const url = router_url.split('?');
-    // 전체 페이지 배열
-    const pagenum = [];
-    for (let i = 1; i <= totalpage; i++) {
-        pagenum.push(i);
-    }
 
     const count_l = 5;
     const count_r = 4;
@@ -47,24 +42,6 @@ export default function NavigationPage({ totalpage, page }) {
 
     let hasPre = (start > 1);
     let hasNext = (end < totalpage);
-
-
-    // function pageArr() {
-    //     let pageArray = [];
-    //     for (let i = start; i <= end; i++) {
-    //         pageArray.push(i);
-    //     }
-    //     const pageList: JSX.Element[] = pageArray.map((number, index) =>
-    //         <li key={index}>
-    //             {
-    //                 number == page
-    //                     ? <strong>{number}</strong>
-    //                     : <Link href={`${url[0]}/?cline=${number}`}><a>{number}</a></Link>
-    //             }
-    //         </li>
-    //     )
-    //     return pageList;
-    // }
 
     const pageArr = () => {
         let pageArray = [];

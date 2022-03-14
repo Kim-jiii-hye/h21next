@@ -10,7 +10,7 @@ import HeaderKisa from "../../../../Component/view/HeaderKisa";
 import { Context } from "../../../../context";
 import util from '../../../../Component/util.json';
 
-export default function Detail({ hanitop, h21top, list }) {
+export default function Detail({ hanitop, h21top, list, book }) {
     const router = useRouter();
     const fetchUrl = router.query;
     const str1 = fetchUrl['sec1'];
@@ -34,7 +34,7 @@ export default function Detail({ hanitop, h21top, list }) {
                                         </section>
                                     </div>
                                     <div className="column_tc	column1">
-                                        {/* <ViewSubscription /> */}
+                                        <ViewSubscription book={book} />
                                         <BoxListPopular1 h21data={h21top} />
                                         <BoxListPopular2 hanidata={hanitop} />
                                     </div>
@@ -63,15 +63,21 @@ export const getServerSideProps = async (context) => {
         : listRes = await fetch(`http://mapi_h21-master.hani.co.kr/on/${sec1Link}/${sec2Link}/${cline}`)
     }
     const listData = await listRes.json();
+
+    const res_book = await fetch(`http://mapi_h21-master.hani.co.kr/ho/latest`)
+    const data_book = await res_book.json();
+
     const hanitop = data.hanitop;
     const h21top = data.h21top;
     const list = listData;
+    const book = data_book.data;
 
     return {
         props: {
             hanitop,
             h21top,
-            list
+            list,
+            book
         }
     }
 }
