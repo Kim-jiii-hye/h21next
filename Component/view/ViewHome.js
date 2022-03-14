@@ -21,7 +21,9 @@ const ViewHome = ({ ho, wdate, maindata, book }) => {
                         <div className="title0">
                             <div className="title1">
                                 <div className="logo_main"><img src={`${SVC_PATH}/image/logo_h21.png`} alt="한겨레21" title="한겨레21" /></div>
-                                <div className="date"><strong>제 {ho}호</strong> {wdate.slice(0, 10).replaceAll('-', '.')}</div>
+                                <div className="date"><strong>제 {ho}호</strong>
+                                    {/*{wdate.slice(0, 10).replaceAll('-', '.')}*/}
+                                </div>
                                 <div className="btn_support1"><a href="https://support.hani.co.kr/hani/support.hani" target="_blank"><span>후원하기</span></a></div>
                                 <SearchForm />
                             </div>
