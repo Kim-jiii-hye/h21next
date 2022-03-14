@@ -1,7 +1,7 @@
 import type { AppProps } from 'next/app';
 import '../styles/globals.css'
 import Footer from '../Component/view/Footer'
-import Header from '../Component/view/header'
+import Header from '../Component/view/Header'
 import { Provider } from '../context'
 
 declare global {
