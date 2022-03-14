@@ -8,6 +8,8 @@ export default function ItemHomeSub({ data }) {
             config_url: { SVC_PATH }
         }
     } = useContext(Context);
+    const notitle = data.url.split('/');
+    const notitle_num = notitle[notitle.length-2];
     return (
         <article className="item_home_sub">
             <div className="article0">
