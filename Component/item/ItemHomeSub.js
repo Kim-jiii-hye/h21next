@@ -15,18 +15,17 @@ export default function ItemHomeSub({ data }) {
                     <div className="image_on">
                         <div className="group0">
                             <div className="group1">
-                                <a href={data.titleheaderurl}>{data.titleheader}
-                                    <img src={`${SVC_PATH}/image/arrow_right_small.png`} />
-                                </a>
-                                {/* {
+                                {
                                     data.titleheader !== undefined
-                                        ?<a href={data.titleheaderurl}>{data.titleheader}
-                                        <img src={`${SVC_PATH}/image/arrow_right_small.png`} />
-                                    </a>
-                                        :<a href="/arti">사회
+                                        ? <a href={data.titleheaderurl}>
+                                            {data.titleheader}
                                             <img src={`${SVC_PATH}/image/arrow_right_small.png`} />
                                         </a>
-                                } */}
+                                        : <a href="">
+                                            {notitle_num}
+                                            <img src={`${SVC_PATH}/image/arrow_right_small.png`} />
+                                        </a>
+                                }
                             </div>
                         </div>
                     </div>
