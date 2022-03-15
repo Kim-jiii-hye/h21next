@@ -34,17 +34,17 @@ export default function Sitemap() {
                             <li className="column">
                                 <ul className="column">
                                     <li><strong><Link href="/arti/">뉴스</Link></strong></li>
-                                    <li><span><Link href="/arti/SERIES/2337/">표지이야기</Link></span></li>
-                                    <li><span><Link href="/arti/SERIES/2338/">특집</Link></span></li>
-                                    <li><span><Link href="/arti/politics/">정치</Link></span></li>
-                                    <li><span><Link href="/arti/economy/">경제</Link></span></li>
-                                    <li><span><Link href="/arti/society/">사회</Link></span></li>
-                                    <li><span><Link href="/arti/world/">세계</Link></span></li>
-                                    <li><span><Link href="/arti/culture/">문화</Link></span></li>
-                                    <li><span><Link href="/arti/photo/">멀티미디어</Link></span></li>
-                                    <li><span><Link href="/arti/reader/">커뮤니티</Link></span></li>
-                                    <li><span><Link href="/arti/SERIES/">기획연재</Link></span></li>
-                                    <li><span><Link href="/arti/COLUMN/">칼럼</Link></span></li>
+                                    <li><span><Link href="/arti/SERIES/2337/" >표지이야기</Link></span></li>
+                                    <li><span><Link href="/arti/SERIES/2338/" >특집</Link></span></li>
+                                    <li><span><Link href="/arti/politics/" >정치</Link></span></li>
+                                    <li><span><Link href="/arti/economy/" >경제</Link></span></li>
+                                    <li><span><Link href="/arti/society/" >사회</Link></span></li>
+                                    <li><span><Link href="/arti/world/" >세계</Link></span></li>
+                                    <li><span><Link href="/arti/culture/" >문화</Link></span></li>
+                                    <li><span><Link href="/arti/photo/" >멀티미디어</Link></span></li>
+                                    <li><span><Link href="/arti/reader/" >커뮤니티</Link></span></li>
+                                    <li><span><Link href="/arti/SERIES/" >기획연재</Link></span></li>
+                                    <li><span><Link href="/arti/COLUMN/" >칼럼</Link></span></li>
                                 </ul>
                             </li>
                             <li className="column">

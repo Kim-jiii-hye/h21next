@@ -35,8 +35,13 @@ export default function NavigationPage({ totalpage, page }) {
             end = totalpage;
             break;
         default:
-            start = (page - count_l);
-            end = (page + count_r);
+            if(totalpage > 1){
+                start = (page - count_l);
+                end = (page + count_r);
+            }else{
+                start = 1;
+                end = 1; 
+            }
             break;
     }
 
