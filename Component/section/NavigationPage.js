@@ -18,8 +18,8 @@ export default function NavigationPage({ totalpage, page }) {
 
     const count_l = 5;
     const count_r = 4;
-    let start = 1;
-    let end = 0;
+    let start ;
+    let end ;
 
     switch (totalpage > 1) {
         case totalpage <= (2 * count_l + 1):

@@ -21,7 +21,7 @@ interface IProps {
 }
 // 기사 뷰 페이지에서만 공유 기능 사용하므로
 
-const KisaView = ({ hanitop, h21top, data, book },{children}:IProps) => {
+const KisaView = ({ hanitop, h21top, data, book },{children}:IProps) : JSX.Element => {
     const router = useRouter();
     const fetchUrl = router.query;
 

@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { Context } from "../../context";
 import ItemThumbnail from "./ItemThumbnail";
 import util from '../../Component/util.json';
+import Link from "next/link";
 const ItemHomeMain = ({ data }) => {
     const {
         state: {
@@ -20,14 +21,12 @@ const ItemHomeMain = ({ data }) => {
                             <div className="group1">
                                 {
                                     data.titleheader !== undefined
-                                        ? <a href={data.titleheaderurl}>
-                                            {data.titleheader}
-                                            <img src={`${SVC_PATH}/image/arrow_right_small.png`} />
-                                        </a>
-                                        : <a href="">
-                                            {notitle_num}
-                                            <img src={`${SVC_PATH}/image/arrow_right_small.png`} />
-                                        </a>
+                                        ? <Link href={data.titleheaderurl}>
+                                            <h6>{data.titleheader}<img src={`${SVC_PATH}/image/arrow_right_small.png`} /></h6>
+                                        </Link>
+                                        : <Link href="">
+                                            <h6>{notitle_num}<img src={`${SVC_PATH}/image/arrow_right_small.png`} /></h6>
+                                        </Link>
                                 }
                             </div>
                         </div>
@@ -50,7 +49,7 @@ const ItemHomeMain = ({ data }) => {
                         <div className="prologue0">
                             <div className="prologue1">
                                 <a href={data.url}>
-                                    {data.prologue}
+                                    <a>{data.prologue}</a>
                                 </a>
                             </div>
                         </div>

@@ -16,14 +16,13 @@ export default function ItemArticle({ data }) {
                         <div className="group0">
                             <div className="group1">
                                 <a href={data.url} >
-
                                 </a>
                             </div>
                         </div>
                         <div className="title0">
                             <div className="title1">
                                 <Link href={data.url} >
-                                    <a>{data.title}</a>
+                                    <h6>{data.title}</h6>
                                 </Link>
                             </div>
                         </div>
