@@ -13,38 +13,14 @@ import ListSeries from "../../../Component/section/ListSeries";
 export default function Detail({ hanitop, h21top, list, book }) {
     const router = useRouter();
     const fetchUrl = router.query;
-    let numb = '';
     let link1 = '';
 
-    const headerType = () => {
-        if (link1.includes("series")) {
-            numb = 'SERIES';
-            link1 = numb.replace(numb, util[numb]['kr']);
-            return <HeaderKisa navi={['뉴스', link1]} />
-        } else if (link1.includes("column")) {
-            numb = 'COLUMN';
-            link1 = numb.replace(numb, util[numb]['kr']);
-            return <ListColumn data={list.data} />
-        } else {
-            // numb = list.title.substring(3);//sec 문자 3개는 자름
-            // link1 = numb.replace(numb, util[numb]['kr']);
-            return <ListArticleSection data={list.data} />
-        }
-    }
-
-
     const openListType = () => {
-        if (link1.includes("series")) {
-            numb = 'SERIES';
-            link1 = numb.replace(numb, util[numb]['kr']);
+        if(fetchUrl['sec1'] == "SERIES"){
             return <ListSeries data={list.data} />
-        } else if (link1.includes("column")) {
-            numb = 'COLUMN';
-            link1 = numb.replace(numb, util[numb]['kr']);
+        }else if(fetchUrl['sec1'] == "COLUMN"){
             return <ListColumn data={list.data} />
-        } else {
-            // numb = list.title.substring(3);//sec 문자 3개는 자름
-            // link1 = numb.replace(numb, util[numb]['kr']);
+        }else{
             return <ListArticleSection data={list.data} />
         }
     }
