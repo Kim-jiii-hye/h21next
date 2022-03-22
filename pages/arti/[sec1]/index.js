@@ -14,6 +14,22 @@ export default function Detail({ hanitop, h21top, list, book }) {
     const router = useRouter();
     const fetchUrl = router.query;
     let link1 = '';
+    
+    const headerNaviLink = () => {
+        if(fetchUrl['sec1'] == "SERIES"){
+            let sec = fetchUrl['sec1'];
+            link1 = sec.replace(sec, util[sec].kr);
+            return <HeaderKisa navi={[ link1]} />
+        }else if(fetchUrl['sec1'] == "COLUMN"){
+            let sec = fetchUrl['sec1'];
+            link1 = sec.replace(sec, util[sec].kr);
+            return <HeaderKisa navi={[link1]} />
+        }else{
+            let sec = list.title.substring(3);
+            link1 = sec.replace(sec, util[sec].kr);
+            return <HeaderKisa navi={['뉴스', link1]} />
+        }
+    }
 
     const openListType = () => {
         if(fetchUrl['sec1'] == "SERIES"){
@@ -31,7 +47,7 @@ export default function Detail({ hanitop, h21top, list, book }) {
             <div id="viewMain">
                 <div className="main0">
                     <div className="main1">
-                    <HeaderKisa navi={['뉴스', link1]} />
+                        {headerNaviLink()}
                         <div id="article_contents" className="article2c_contents">
                             <div className="column_tb">
                                 <div className="column_tr">
