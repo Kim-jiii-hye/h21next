@@ -25,8 +25,14 @@ export default function Detail({ hanitop, h21top, list, book }) {
             link1 = sec.replace(sec, util[sec].kr);
             return <HeaderKisa navi={[link1]} />
         }else{
-            let sec = list.title.substring(3);
-            link1 = sec.replace(sec, util[sec].kr);
+            let sec;
+            if(list.title.includes('sec')){
+                let sec = list.title.substring(3);
+                link1 = sec.replace(sec, util[sec].kr);
+            }else{
+                console.log(util[0])
+                link1 = list.title;
+            }
             return <HeaderKisa navi={['뉴스', link1]} />
         }
     }
