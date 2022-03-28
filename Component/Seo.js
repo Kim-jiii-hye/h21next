@@ -29,7 +29,6 @@ const Seo = ({ title }) => {
             <link rel="shortcut icon" href="/favicon.ico" />
             <link rel="stylesheet" href={`${SVC_PATH}/css/h21.css`} type="text/css" />
             <link rel="stylesheet" href="//img.hani.co.kr/section-image/21/support/banner_support.css" type="text/css" />
-
             <script src={`${SVC_PATH}/js/lib/html5ie.js`}></script>
             <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
             {/* <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"	></script> */}
