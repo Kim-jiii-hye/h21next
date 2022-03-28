@@ -633,7 +633,7 @@ function Sitemap() {
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx("strong", {
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
                                                         href: "/arti/",
-                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("h6", {
+                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                             children: "뉴스"
                                                         })
                                                     })
@@ -643,7 +643,7 @@ function Sitemap() {
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
                                                         href: "/arti/SERIES/2337/",
-                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("h6", {
+                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                             children: "표지이야기"
                                                         })
                                                     })
@@ -653,7 +653,7 @@ function Sitemap() {
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
                                                         href: "/arti/SERIES/2338/",
-                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("h6", {
+                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                             children: "특집"
                                                         })
                                                     })
@@ -663,7 +663,7 @@ function Sitemap() {
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
                                                         href: "/arti/politics/",
-                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("h6", {
+                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                             children: "정치"
                                                         })
                                                     })
@@ -673,7 +673,7 @@ function Sitemap() {
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
                                                         href: "/arti/economy/",
-                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("h6", {
+                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                             children: "경제"
                                                         })
                                                     })
@@ -683,7 +683,7 @@ function Sitemap() {
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
                                                         href: "/arti/society/",
-                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("h6", {
+                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                             children: "사회"
                                                         })
                                                     })
@@ -693,7 +693,7 @@ function Sitemap() {
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
                                                         href: "/arti/world/",
-                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("h6", {
+                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                             children: "세계"
                                                         })
                                                     })
@@ -703,7 +703,7 @@ function Sitemap() {
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
                                                         href: "/arti/culture/",
-                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("h6", {
+                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                             children: "문화"
                                                         })
                                                     })
@@ -713,7 +713,7 @@ function Sitemap() {
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
                                                         href: "/arti/photo/",
-                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("h6", {
+                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                             children: "멀티미디어"
                                                         })
                                                     })
@@ -723,7 +723,7 @@ function Sitemap() {
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
                                                         href: "/arti/reader/",
-                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("h6", {
+                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                             children: "커뮤니티"
                                                         })
                                                     })
@@ -733,7 +733,7 @@ function Sitemap() {
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
                                                         href: "/arti/SERIES/",
-                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("h6", {
+                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                             children: "기획연재"
                                                         })
                                                     })
@@ -743,7 +743,7 @@ function Sitemap() {
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
                                                         href: "/arti/COLUMN/",
-                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("h6", {
+                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                             children: "칼럼"
                                                         })
                                                     })
@@ -766,7 +766,7 @@ function Sitemap() {
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
                                                         href: "/arti/HO/",
-                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("h6", {
+                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                             children: "지난호보기"
                                                         })
                                                     })
@@ -794,7 +794,7 @@ function Sitemap() {
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
                                                         href: "/arti/RSS",
-                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("h6", {
+                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                             children: "RSS"
                                                         })
                                                     })
@@ -817,7 +817,7 @@ function Sitemap() {
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
                                                         href: "/arti/INTRODUCTION/1.html",
-                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("h6", {
+                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                             children: "소개"
                                                         })
                                                     })
@@ -827,7 +827,7 @@ function Sitemap() {
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
                                                         href: "/arti/INTRODUCTION/2.html",
-                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("h6", {
+                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                             children: "제작과정"
                                                         })
                                                     })
@@ -837,7 +837,7 @@ function Sitemap() {
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
                                                         href: "/arti/SUBSCRIPTION/1.html",
-                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("h6", {
+                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                             children: "구독신청"
                                                         })
                                                     })
@@ -847,7 +847,7 @@ function Sitemap() {
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
                                                         href: "/arti/INTRODUCTION/3.html",
-                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("h6", {
+                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                             children: "광고안내"
                                                         })
                                                     })
@@ -865,7 +865,7 @@ function Sitemap() {
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx("strong", {
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
                                                         href: "/arti/CUSTOMER/home.html",
-                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("h6", {
+                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                             children: "고객센터"
                                                         })
                                                     })
@@ -875,7 +875,7 @@ function Sitemap() {
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
                                                         href: "/arti/CUSTOMER/sub.html",
-                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("h6", {
+                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                             children: "자주하는 질문(FAQ)"
                                                         })
                                                     })

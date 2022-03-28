@@ -107,9 +107,6 @@ const Seo = ({ title  })=>{
                 src: `${SVC_PATH_21}/js/utils.js`
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("script", {
-                src: "//www.hani.co.kr/section-homepage/las/acecounter_hani.js"
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("script", {
                 src: "//www.hani.co.kr/section-homepage/svc/js/google_analytics.js"
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("script", {

@@ -33,44 +33,44 @@ export default function Sitemap() {
                         <ul className="page">
                             <li className="column">
                                 <ul className="column">
-                                    <li><strong><Link href="/arti/"><h6>뉴스</h6></Link></strong></li>
-                                    <li><span><Link href="/arti/SERIES/2337/" ><h6>표지이야기</h6></Link></span></li>
-                                    <li><span><Link href="/arti/SERIES/2338/" ><h6>특집</h6></Link></span></li>
-                                    <li><span><Link href="/arti/politics/" ><h6>정치</h6></Link></span></li>
-                                    <li><span><Link href="/arti/economy/" ><h6>경제</h6></Link></span></li>
-                                    <li><span><Link href="/arti/society/" ><h6>사회</h6></Link></span></li>
-                                    <li><span><Link href="/arti/world/" ><h6>세계</h6></Link></span></li>
-                                    <li><span><Link href="/arti/culture/" ><h6>문화</h6></Link></span></li>
-                                    <li><span><Link href="/arti/photo/" ><h6>멀티미디어</h6></Link></span></li>
-                                    <li><span><Link href="/arti/reader/" ><h6>커뮤니티</h6></Link></span></li>
-                                    <li><span><Link href="/arti/SERIES/" ><h6>기획연재</h6></Link></span></li>
-                                    <li><span><Link href="/arti/COLUMN/" ><h6>칼럼</h6></Link></span></li>
+                                    <li><strong><Link href="/arti/"><a>뉴스</a></Link></strong></li>
+                                    <li><span><Link href="/arti/SERIES/2337/" ><a>표지이야기</a></Link></span></li>
+                                    <li><span><Link href="/arti/SERIES/2338/" ><a>특집</a></Link></span></li>
+                                    <li><span><Link href="/arti/politics/" ><a>정치</a></Link></span></li>
+                                    <li><span><Link href="/arti/economy/" ><a>경제</a></Link></span></li>
+                                    <li><span><Link href="/arti/society/" ><a>사회</a></Link></span></li>
+                                    <li><span><Link href="/arti/world/" ><a>세계</a></Link></span></li>
+                                    <li><span><Link href="/arti/culture/" ><a>문화</a></Link></span></li>
+                                    <li><span><Link href="/arti/photo/" ><a>멀티미디어</a></Link></span></li>
+                                    <li><span><Link href="/arti/reader/" ><a>커뮤니티</a></Link></span></li>
+                                    <li><span><Link href="/arti/SERIES/" ><a>기획연재</a></Link></span></li>
+                                    <li><span><Link href="/arti/COLUMN/" ><a>칼럼</a></Link></span></li>
                                 </ul>
                             </li>
                             <li className="column">
                                 <ul className="column">
                                     <li><strong>그외</strong></li>
-                                    <li><span><Link href="/arti/HO/"><h6>지난호보기</h6></Link></span></li>
+                                    <li><span><Link href="/arti/HO/"><a>지난호보기</a></Link></span></li>
                                     <li><span><a href="https://smartstore.naver.com/hankyoreh21"
                                         target="_blank">낱권구입</a></span></li>
                                     <li><span><a href="http://h21pdf.hani.co.kr/PaperList.aspx"
                                         target="_blank">PDF</a></span></li>
-                                    <li><span><Link href="/arti/RSS"><h6>RSS</h6></Link></span></li>
+                                    <li><span><Link href="/arti/RSS"><a>RSS</a></Link></span></li>
                                 </ul>
                             </li>
                             <li className="column">
                                 <ul className="column">
                                     <li><strong>한겨레21</strong></li>
-                                    <li><span><Link href="/arti/INTRODUCTION/1.html"><h6>소개</h6></Link></span></li>
-                                    <li><span><Link href="/arti/INTRODUCTION/2.html"><h6>제작과정</h6></Link></span></li>
-                                    <li><span><Link href="/arti/SUBSCRIPTION/1.html"><h6>구독신청</h6></Link></span></li>
-                                    <li><span><Link href="/arti/INTRODUCTION/3.html"><h6>광고안내</h6></Link></span></li>
+                                    <li><span><Link href="/arti/INTRODUCTION/1.html"><a>소개</a></Link></span></li>
+                                    <li><span><Link href="/arti/INTRODUCTION/2.html"><a>제작과정</a></Link></span></li>
+                                    <li><span><Link href="/arti/SUBSCRIPTION/1.html"><a>구독신청</a></Link></span></li>
+                                    <li><span><Link href="/arti/INTRODUCTION/3.html"><a>광고안내</a></Link></span></li>
                                 </ul>
                             </li>
                             <li className="column">
                                 <ul className="column">
-                                    <li><strong><Link href="/arti/CUSTOMER/home.html"><h6>고객센터</h6></Link></strong></li>
-                                    <li><span><Link href="/arti/CUSTOMER/sub.html"><h6>자주하는 질문(FAQ)</h6></Link></span></li>
+                                    <li><strong><Link href="/arti/CUSTOMER/home.html"><a>고객센터</a></Link></strong></li>
+                                    <li><span><Link href="/arti/CUSTOMER/sub.html"><a>자주하는 질문(FAQ)</a></Link></span></li>
                                     <li><span><a href="//notice.hani.co.kr/h21/opinion">독자문의</a></span>
                                     </li>
                                 </ul>

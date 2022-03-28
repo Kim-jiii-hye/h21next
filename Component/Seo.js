@@ -34,7 +34,6 @@ const Seo = ({ title }) => {
             <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
             {/* <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"	></script> */}
             <script src={`${SVC_PATH_21}/js/utils.js`}></script>
-            <script src="//www.hani.co.kr/section-homepage/las/acecounter_hani.js"></script>
             <script src="//www.hani.co.kr/section-homepage/svc/js/google_analytics.js"></script>
             <script type="text/javascript" src="//www.hani.co.kr/hani/api/hani_cnt/hani_cnt_loader.hani"></script>
             <script defer src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>

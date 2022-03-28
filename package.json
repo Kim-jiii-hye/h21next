@@ -4,9 +4,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start -p 8000",
-    "app": "node app",
-    "server": "node server",
+    "start": "next start",
+    
     "lint": "next lint"
   },
   "dependencies": {
