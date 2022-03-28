@@ -1,4 +1,4 @@
-import Link from "next/link";
+import a from "next/link";
 import ItemThumbnail from "./ItemThumbnail";
 
 export default function ItemHomeTop({ data }) {
@@ -8,9 +8,9 @@ export default function ItemHomeTop({ data }) {
                 <div className="article1">
                     <div className="title0">
                         <div className="title1">
-                            <Link href={data.url}>
+                            <a href={data.url}>
                                 <h6>{data.title}</h6>
-                            </Link>
+                            </a>
                         </div>
                     </div>
                     <div className="image0">

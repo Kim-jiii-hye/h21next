@@ -7,9 +7,9 @@ export default function ItemArticle({ data }) {
                 <div className="article1">
                     <div className="image0">
                         <div className="image1">
-                            <Link href={data.url} >
+                            <a href={data.url} >
                                 <ItemThumbnail data={data.img} />
-                            </Link>
+                            </a>
                         </div>
                     </div>
                     <div className="image_on">
@@ -21,16 +21,16 @@ export default function ItemArticle({ data }) {
                         </div>
                         <div className="title0">
                             <div className="title1">
-                                <Link href={data.url} >
+                                <a href={data.url} >
                                     <h6>{data.title}</h6>
-                                </Link>
+                                </a>
                             </div>
                         </div>
                         <div className="magazine_no0">
                             <div className="magazine_no1">
-                                <Link href={data.url} >
+                                <a href={data.url} >
                                     <a>제{data.ho}호</a>
-                                </Link>
+                                </a>
                             </div>
                         </div>
                         <div className="prologue0">
