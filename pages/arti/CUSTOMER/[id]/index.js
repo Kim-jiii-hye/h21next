@@ -16,7 +16,7 @@ export default function Section() {
                     <div className="main1">
                         <HeaderOther navi={["고객센터"]} />
                         {
-                            (pageurl != NaN || pageurl != undefined) ? <DynamicComponent /> : <Nothing />
+                            (pageurl != 'NaN' || pageurl != 'undefined') ? <DynamicComponent /> : <Nothing />
                         }
                     </div>
                 </div>
