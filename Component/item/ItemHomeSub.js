@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { useContext } from "react";
 import { Context } from "../../context";
 import ItemThumbnail from "./ItemThumbnail"
@@ -41,9 +42,9 @@ export default function ItemHomeSub({ data }) {
                     <div className="image_on">
                         <div className="title0">
                             <div className="title1">
-                                <a href={data.url}>
-                                    <h6>{data.title}</h6>
-                                </a>
+                                <Link href={data.url}>
+                                    <a>{data.title}</a>
+                                </Link>
                             </div>
                         </div>
                     </div>

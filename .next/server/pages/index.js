@@ -113,7 +113,7 @@ const ItemHomeMain = ({ data  })=>{
                                     className: "group1",
                                     children: data.titleheader !== undefined ? /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
                                         href: data.titleheaderurl,
-                                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h6", {
+                                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
                                             children: [
                                                 data.titleheader,
                                                 /*#__PURE__*/ jsx_runtime_.jsx("img", {
@@ -123,7 +123,7 @@ const ItemHomeMain = ({ data  })=>{
                                         })
                                     }) : /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
                                         href: "",
-                                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h6", {
+                                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
                                             children: [
                                                 notitle_num,
                                                 /*#__PURE__*/ jsx_runtime_.jsx("img", {
@@ -154,9 +154,9 @@ const ItemHomeMain = ({ data  })=>{
                                     className: "title0",
                                     children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                         className: "title1",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
                                             href: data.url,
-                                            children: /*#__PURE__*/ jsx_runtime_.jsx("h6", {
+                                            children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                 children: data.title
                                             })
                                         })
@@ -166,7 +166,7 @@ const ItemHomeMain = ({ data  })=>{
                                     className: "prologue0",
                                     children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                         className: "prologue1",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
                                             href: data.url,
                                             children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                 children: data.prologue
@@ -281,6 +281,7 @@ const ListHomeMain = ({ data  })=>{
 
 
 
+
 function ItemHomeSub({ data  }) {
     const { state: { config_url: { SVC_PATH  }  }  } = (0,external_react_.useContext)(context/* Context */._);
     const notitle = data.url.split('/');
@@ -337,9 +338,9 @@ function ItemHomeSub({ data  }) {
                                 className: "title0",
                                 children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                     className: "title1",
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                    children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
                                         href: data.url,
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("h6", {
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                             children: data.title
                                         })
                                     })
@@ -510,6 +511,7 @@ function ListHometop({ data , book  }) {
 
 
 
+
 function ItemHomeTop({ data  }) {
     return(/*#__PURE__*/ jsx_runtime_.jsx("article", {
         className: "item_home_top",
@@ -522,7 +524,7 @@ function ItemHomeTop({ data  }) {
                         className: "title0",
                         children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
                             className: "title1",
-                            children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                            children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
                                 href: data.url,
                                 children: /*#__PURE__*/ jsx_runtime_.jsx("h6", {
                                     children: data.title

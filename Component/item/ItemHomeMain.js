@@ -22,10 +22,10 @@ const ItemHomeMain = ({ data }) => {
                                 {
                                     data.titleheader !== undefined
                                         ? <Link href={data.titleheaderurl}>
-                                            <h6>{data.titleheader}<img src={`${SVC_PATH}/image/arrow_right_small.png`} /></h6>
+                                            <a>{data.titleheader}<img src={`${SVC_PATH}/image/arrow_right_small.png`} /></a>
                                         </Link>
                                         : <Link href="">
-                                            <h6>{notitle_num}<img src={`${SVC_PATH}/image/arrow_right_small.png`} /></h6>
+                                            <a>{notitle_num}<img src={`${SVC_PATH}/image/arrow_right_small.png`} /></a>
                                         </Link>
                                 }
                             </div>
@@ -41,16 +41,16 @@ const ItemHomeMain = ({ data }) => {
                     <div className="image_on">
                         <div className="title0">
                             <div className="title1">
-                                <a href={data.url}>
-                                    <h6>{data.title}</h6>
-                                </a>
+                                <Link href={data.url}>
+                                    <a>{data.title}</a>
+                                </Link>
                             </div>
                         </div>
                         <div className="prologue0">
                             <div className="prologue1">
-                                <a href={data.url}>
+                                <Link href={data.url}>
                                     <a>{data.prologue}</a>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
