@@ -1,0 +1,17 @@
+{
+  "/404": "pages/404.html",
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/api/hello": "pages/api/hello.js",
+  "/arti/CUSTOMER/[id]": "pages/arti/CUSTOMER/[id].html",
+  "/arti/HO": "pages/arti/HO.html",
+  "/arti/INTRODUCTION/[id]": "pages/arti/INTRODUCTION/[id].html",
+  "/arti/RSS": "pages/arti/RSS.html",
+  "/arti/SUBSCRIPTION/[id]": "pages/arti/SUBSCRIPTION/[id].html",
+  "/arti/[sec1]/[sec2]/[kisanum]": "pages/arti/[sec1]/[sec2]/[kisanum].js",
+  "/arti/[sec1]/[sec2]": "pages/arti/[sec1]/[sec2].js",
+  "/arti/[sec1]": "pages/arti/[sec1].js",
+  "/": "pages/index.js",
+  "/test": "pages/test.html",
+  "/_document": "pages/_document.js"
+}
