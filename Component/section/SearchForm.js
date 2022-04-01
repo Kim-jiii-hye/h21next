@@ -13,9 +13,9 @@ export default function SearchForm() {
                 <div className="form0">
                     <div className="form1">
                         <form name="frmsearch" method="post" action="http://search.hani.co.kr/Search">
-                            <input type="hidden" name="command" value="query" />
-                            <input type="hidden" name="media" value="magazine" />
-                            <input type="text" name="keyword" value="" title="검색어" className="text" />
+                            <input type="hidden" name="command" defaultValue="query" />
+                            <input type="hidden" name="media" defaultValue="magazine" />
+                            <input type="text" name="keyword" defaultValue="" title="검색어" className="text" />
                             <input type="image" src={"//img.hani.co.kr/section-image/15/h21/image/button_search3.png"} className="button" />
                         </form>
                     </div>

@@ -172,17 +172,17 @@ function SearchForm() {
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("input", {
                                     type: "hidden",
                                     name: "command",
-                                    value: "query"
+                                    defaultValue: "query"
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("input", {
                                     type: "hidden",
                                     name: "media",
-                                    value: "magazine"
+                                    defaultValue: "magazine"
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("input", {
                                     type: "text",
                                     name: "keyword",
-                                    value: "",
+                                    defaultValue: "",
                                     title: "검색어",
                                     className: "text"
                                 }),
