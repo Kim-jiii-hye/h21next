@@ -1,405 +1,90 @@
-"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
 (() => {
 var exports = {};
-exports.id = 888;
-exports.ids = [888];
+exports.id = "pages/_app";
+exports.ids = ["pages/_app"];
 exports.modules = {
 
-/***/ 5144:
+/***/ "./Component/view/Footer.js":
+/*!**********************************!*\
+  !*** ./Component/view/Footer.js ***!
+  \**********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "_": () => (/* binding */ Context),
-/* harmony export */   "z": () => (/* binding */ Provider)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6689);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Footer)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n\nfunction Footer() {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"footer\", {\n        id: \"viewFooter\",\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n            className: \"footer0\",\n            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"footer1\",\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"ul\", {\n                        className: \"link\",\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                        href: \"https://member.hani.co.kr/help/rules/mypage_help_copyright.hani\",\n                                        target: \"_blank\",\n                                        rel: \"noopener noreferal\",\n                                        children: \"\\uC800\\uC791\\uAD8C \\uC548\\uB0B4\"\n                                    }, void 0, false, {\n                                        fileName: \"/var/www/html/hani21Next/Component/view/Footer.js\",\n                                        lineNumber: 7,\n                                        columnNumber: 29\n                                    }, this),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                        children: \"|\"\n                                    }, void 0, false, {\n                                        fileName: \"/var/www/html/hani21Next/Component/view/Footer.js\",\n                                        lineNumber: 7,\n                                        columnNumber: 154\n                                    }, this)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/var/www/html/hani21Next/Component/view/Footer.js\",\n                                lineNumber: 7,\n                                columnNumber: 25\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                        href: \"https://member.hani.co.kr/help/rules/mypage_help_memberTerms.hani\",\n                                        target: \"_blank\",\n                                        rel: \"noopener noreferal\",\n                                        children: \"\\uD68C\\uC6D0\\uC57D\\uAD00\"\n                                    }, void 0, false, {\n                                        fileName: \"/var/www/html/hani21Next/Component/view/Footer.js\",\n                                        lineNumber: 8,\n                                        columnNumber: 29\n                                    }, this),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                        children: \"|\"\n                                    }, void 0, false, {\n                                        fileName: \"/var/www/html/hani21Next/Component/view/Footer.js\",\n                                        lineNumber: 8,\n                                        columnNumber: 154\n                                    }, this)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/var/www/html/hani21Next/Component/view/Footer.js\",\n                                lineNumber: 8,\n                                columnNumber: 25\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                        href: \"https://member.hani.co.kr/help/rules/mypage_help_privatePolicy.hani\",\n                                        target: \"_blank\",\n                                        rel: \"noopener noreferal\",\n                                        children: \"\\uAC1C\\uC778\\uC815\\uBCF4 \\uCDE8\\uAE09\\uBC29\\uCE68\"\n                                    }, void 0, false, {\n                                        fileName: \"/var/www/html/hani21Next/Component/view/Footer.js\",\n                                        lineNumber: 9,\n                                        columnNumber: 29\n                                    }, this),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                        children: \"|\"\n                                    }, void 0, false, {\n                                        fileName: \"/var/www/html/hani21Next/Component/view/Footer.js\",\n                                        lineNumber: 9,\n                                        columnNumber: 161\n                                    }, this)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/var/www/html/hani21Next/Component/view/Footer.js\",\n                                lineNumber: 9,\n                                columnNumber: 25\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                        href: \"https://member.hani.co.kr/help/rules/mypage_help_copyright.hani?type=intellectual_property_protection\",\n                                        target: \"_blank\",\n                                        rel: \"noopener noreferal\",\n                                        children: \"\\uC9C0\\uC801\\uC7AC\\uC0B0\\uBCF4\\uD638\\uC815\\uCC45\"\n                                    }, void 0, false, {\n                                        fileName: \"/var/www/html/hani21Next/Component/view/Footer.js\",\n                                        lineNumber: 10,\n                                        columnNumber: 29\n                                    }, this),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                        children: \"|\"\n                                    }, void 0, false, {\n                                        fileName: \"/var/www/html/hani21Next/Component/view/Footer.js\",\n                                        lineNumber: 10,\n                                        columnNumber: 194\n                                    }, this)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/var/www/html/hani21Next/Component/view/Footer.js\",\n                                lineNumber: 10,\n                                columnNumber: 25\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                    href: \"https://member.hani.co.kr/help/rules/mypage_help_emailPolicy.hani\",\n                                    target: \"_blank\",\n                                    rel: \"noopener noreferal\",\n                                    children: \"\\uC774\\uBA54\\uC77C\\uC8FC\\uC18C \\uBB34\\uB2E8\\uC218\\uC9D1\\uAC70\\uBD80\"\n                                }, void 0, false, {\n                                    fileName: \"/var/www/html/hani21Next/Component/view/Footer.js\",\n                                    lineNumber: 11,\n                                    columnNumber: 29\n                                }, this)\n                            }, void 0, false, {\n                                fileName: \"/var/www/html/hani21Next/Component/view/Footer.js\",\n                                lineNumber: 11,\n                                columnNumber: 25\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/var/www/html/hani21Next/Component/view/Footer.js\",\n                        lineNumber: 6,\n                        columnNumber: 21\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"ul\", {\n                        className: \"copyright-info\",\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                                children: [\n                                    \"\\uD55C\\uACA8\\uB80821  \",\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                        children: \"|\"\n                                    }, void 0, false, {\n                                        fileName: \"/var/www/html/hani21Next/Component/view/Footer.js\",\n                                        lineNumber: 14,\n                                        columnNumber: 36\n                                    }, this)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/var/www/html/hani21Next/Component/view/Footer.js\",\n                                lineNumber: 14,\n                                columnNumber: 25\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                                children: [\n                                    \"\\uB4F1\\uB85D\\uBC88\\uD638:\\uC11C\\uC6B8, \\uC54401707  \",\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                        children: \"|\"\n                                    }, void 0, false, {\n                                        fileName: \"/var/www/html/hani21Next/Component/view/Footer.js\",\n                                        lineNumber: 15,\n                                        columnNumber: 46\n                                    }, this)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/var/www/html/hani21Next/Component/view/Footer.js\",\n                                lineNumber: 15,\n                                columnNumber: 25\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                                children: [\n                                    \"\\uB4F1\\uB85D\\uC77C\\uC790:2017-7-19 \",\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                        children: \"|\"\n                                    }, void 0, false, {\n                                        fileName: \"/var/www/html/hani21Next/Component/view/Footer.js\",\n                                        lineNumber: 16,\n                                        columnNumber: 44\n                                    }, this)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/var/www/html/hani21Next/Component/view/Footer.js\",\n                                lineNumber: 16,\n                                columnNumber: 25\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                                children: [\n                                    \"\\uBC1C\\uD589\\uC778:\\uAE40\\uD604\\uB300 \",\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                        children: \"|\"\n                                    }, void 0, false, {\n                                        fileName: \"/var/www/html/hani21Next/Component/view/Footer.js\",\n                                        lineNumber: 17,\n                                        columnNumber: 37\n                                    }, this)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/var/www/html/hani21Next/Component/view/Footer.js\",\n                                lineNumber: 17,\n                                columnNumber: 25\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                                children: [\n                                    \"\\uD3B8\\uC9D1\\uC778:\\uAC15\\uB300\\uC131  \",\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                        children: \"|\"\n                                    }, void 0, false, {\n                                        fileName: \"/var/www/html/hani21Next/Component/view/Footer.js\",\n                                        lineNumber: 18,\n                                        columnNumber: 38\n                                    }, this)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/var/www/html/hani21Next/Component/view/Footer.js\",\n                                lineNumber: 18,\n                                columnNumber: 25\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                                children: [\n                                    \"\\uCCAD\\uC18C\\uB144\\uBCF4\\uD638\\uCC45\\uC784\\uC790:\\uAC15\\uB300\\uC131 \",\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                        children: \"|\"\n                                    }, void 0, false, {\n                                        fileName: \"/var/www/html/hani21Next/Component/view/Footer.js\",\n                                        lineNumber: 19,\n                                        columnNumber: 42\n                                    }, this)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/var/www/html/hani21Next/Component/view/Footer.js\",\n                                lineNumber: 19,\n                                columnNumber: 25\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                                children: [\n                                    \"\\uC8FC\\uC18C:\\uC11C\\uC6B8\\uD2B9\\uBCC4\\uC2DC \\uB9C8\\uD3EC\\uAD6C \\uD6A8\\uCC3D\\uBAA9\\uAE38 6 \",\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                        children: \"|\"\n                                    }, void 0, false, {\n                                        fileName: \"/var/www/html/hani21Next/Component/view/Footer.js\",\n                                        lineNumber: 20,\n                                        columnNumber: 49\n                                    }, this)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/var/www/html/hani21Next/Component/view/Footer.js\",\n                                lineNumber: 20,\n                                columnNumber: 25\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                                children: \"\\uACE0\\uAC1D\\uC13C\\uD130:1566-9595\"\n                            }, void 0, false, {\n                                fileName: \"/var/www/html/hani21Next/Component/view/Footer.js\",\n                                lineNumber: 21,\n                                columnNumber: 25\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                                className: \"copyright\",\n                                children: [\n                                    \"\\u24D2 \",\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"strong\", {\n                                        children: \"The Hankyoreh.\"\n                                    }, void 0, false, {\n                                        fileName: \"/var/www/html/hani21Next/Component/view/Footer.js\",\n                                        lineNumber: 22,\n                                        columnNumber: 53\n                                    }, this),\n                                    \" All Rights Reserved.\"\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/var/www/html/hani21Next/Component/view/Footer.js\",\n                                lineNumber: 22,\n                                columnNumber: 25\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/var/www/html/hani21Next/Component/view/Footer.js\",\n                        lineNumber: 13,\n                        columnNumber: 21\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"/var/www/html/hani21Next/Component/view/Footer.js\",\n                lineNumber: 5,\n                columnNumber: 17\n            }, this)\n        }, void 0, false, {\n            fileName: \"/var/www/html/hani21Next/Component/view/Footer.js\",\n            lineNumber: 4,\n            columnNumber: 13\n        }, this)\n    }, void 0, false, {\n        fileName: \"/var/www/html/hani21Next/Component/view/Footer.js\",\n        lineNumber: 3,\n        columnNumber: 9\n    }, this);\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,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QUFhOzBDQUN2Qiw4REFBUEEsSUFBRTtnQ0FBQ0YsU0FBUyxFQUFDLFdBQVc7O29DQUFDLFNBQUU7a0RBQUEsOERBQUNRLFFBQU07a0RBQUMsZ0JBQWM7Ozs7OzRDQUFTO29DQUFBLHVCQUFxQjs7Ozs7O29DQUFLOzs7Ozs7NEJBQ3BGOzs7Ozs7b0JBQ0g7Ozs7O2dCQUNKOzs7OztZQUNELENBRVo7Q0FDSiIsInNvdXJjZXMiOlsid2VicGFjazovL215LWFwcC8uL0NvbXBvbmVudC92aWV3L0Zvb3Rlci5qcz9jYmRjIl0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEZvb3RlcigpIHtcbiAgICByZXR1cm4gKFxuICAgICAgICA8Zm9vdGVyIGlkPVwidmlld0Zvb3RlclwiPlxuICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJmb290ZXIwXCI+XG4gICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJmb290ZXIxXCI+XG4gICAgICAgICAgICAgICAgICAgIDx1bCBjbGFzc05hbWU9XCJsaW5rXCI+XG4gICAgICAgICAgICAgICAgICAgICAgICA8bGk+PGEgaHJlZj1cImh0dHBzOi8vbWVtYmVyLmhhbmkuY28ua3IvaGVscC9ydWxlcy9teXBhZ2VfaGVscF9jb3B5cmlnaHQuaGFuaVwiIHRhcmdldD1cIl9ibGFua1wiIHJlbD1cIm5vb3BlbmVyIG5vcmVmZXJhbFwiPuyggOyekeq2jCDslYjrgrQ8L2E+PHNwYW4+fDwvc3Bhbj48L2xpPlxuICAgICAgICAgICAgICAgICAgICAgICAgPGxpPjxhIGhyZWY9XCJodHRwczovL21lbWJlci5oYW5pLmNvLmtyL2hlbHAvcnVsZXMvbXlwYWdlX2hlbHBfbWVtYmVyVGVybXMuaGFuaVwiIHRhcmdldD1cIl9ibGFua1wiIHJlbD1cIm5vb3BlbmVyIG5vcmVmZXJhbFwiPu2ajOybkOyVveq0gDwvYT48c3Bhbj58PC9zcGFuPjwvbGk+XG4gICAgICAgICAgICAgICAgICAgICAgICA8bGk+PGEgaHJlZj1cImh0dHBzOi8vbWVtYmVyLmhhbmkuY28ua3IvaGVscC9ydWxlcy9teXBhZ2VfaGVscF9wcml2YXRlUG9saWN5LmhhbmlcIiB0YXJnZXQ9XCJfYmxhbmtcIiByZWw9XCJub29wZW5lciBub3JlZmVyYWxcIj7qsJzsnbjsoJXrs7Qg7Leo6riJ67Cp7LmoPC9hPjxzcGFuPnw8L3NwYW4+PC9saT5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48YSBocmVmPVwiaHR0cHM6Ly9tZW1iZXIuaGFuaS5jby5rci9oZWxwL3J1bGVzL215cGFnZV9oZWxwX2NvcHlyaWdodC5oYW5pP3R5cGU9aW50ZWxsZWN0dWFsX3Byb3BlcnR5X3Byb3RlY3Rpb25cIiB0YXJnZXQ9XCJfYmxhbmtcIiByZWw9XCJub29wZW5lciBub3JlZmVyYWxcIj7sp4DsoIHsnqzsgrDrs7TtmLjsoJXssYU8L2E+PHNwYW4+fDwvc3Bhbj48L2xpPlxuICAgICAgICAgICAgICAgICAgICAgICAgPGxpPjxhIGhyZWY9XCJodHRwczovL21lbWJlci5oYW5pLmNvLmtyL2hlbHAvcnVsZXMvbXlwYWdlX2hlbHBfZW1haWxQb2xpY3kuaGFuaVwiIHRhcmdldD1cIl9ibGFua1wiIHJlbD1cIm5vb3BlbmVyIG5vcmVmZXJhbFwiPuydtOuplOydvOyjvOyGjCDrrLTri6jsiJjsp5HqsbDrtoA8L2E+PC9saT5cbiAgICAgICAgICAgICAgICAgICAgPC91bD5cbiAgICAgICAgICAgICAgICAgICAgPHVsIGNsYXNzTmFtZT1cImNvcHlyaWdodC1pbmZvXCI+XG4gICAgICAgICAgICAgICAgICAgICAgICA8bGk+7ZWc6rKo66CIMjEgIDxzcGFuPnw8L3NwYW4+PC9saT5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxsaT7rk7HroZ3rsojtmLg67ISc7Jq4LCDslYQwMTcwNyAgPHNwYW4+fDwvc3Bhbj48L2xpPlxuICAgICAgICAgICAgICAgICAgICAgICAgPGxpPuuTseuhneydvOyekDoyMDE3LTctMTkgPHNwYW4+fDwvc3Bhbj48L2xpPlxuICAgICAgICAgICAgICAgICAgICAgICAgPGxpPuuwnO2WieyduDrquYDtmITrjIAgPHNwYW4+fDwvc3Bhbj48L2xpPlxuICAgICAgICAgICAgICAgICAgICAgICAgPGxpPu2OuOynkeyduDrqsJXrjIDshLEgIDxzcGFuPnw8L3NwYW4+PC9saT5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxsaT7ssq3shozrhYTrs7TtmLjssYXsnoTsnpA66rCV64yA7ISxIDxzcGFuPnw8L3NwYW4+PC9saT5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxsaT7so7zshow67ISc7Jq47Yq567OE7IucIOuniO2PrOq1rCDtmqjssL3rqqnquLggNiA8c3Bhbj58PC9zcGFuPjwvbGk+XG4gICAgICAgICAgICAgICAgICAgICAgICA8bGk+6rOg6rCd7IS87YSwOjE1NjYtOTU5NTwvbGk+XG4gICAgICAgICAgICAgICAgICAgICAgICA8bGkgY2xhc3NOYW1lPVwiY29weXJpZ2h0XCI+4pOSIDxzdHJvbmc+VGhlIEhhbmt5b3JlaC48L3N0cm9uZz4gQWxsIFJpZ2h0cyBSZXNlcnZlZC48L2xpPlxuICAgICAgICAgICAgICAgICAgICA8L3VsPlxuICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvZm9vdGVyPlxuXG4gICAgKVxufSJdLCJuYW1lcyI6WyJGb290ZXIiLCJmb290ZXIiLCJpZCIsImRpdiIsImNsYXNzTmFtZSIsInVsIiwibGkiLCJhIiwiaHJlZiIsInRhcmdldCIsInJlbCIsInNwYW4iLCJzdHJvbmciXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./Component/view/Footer.js\n");
 
+/***/ }),
 
-//initial state
-const initialState = {
-    config_url: {
-        SVC_PATH: "//img.hani.co.kr/section-image/15/h21",
-        SVC_PATH_21: "//img.hani.co.kr/section-image/21/h21",
-        WEB_URL: "http://h21.hani.co.kr",
-        JSON_URL: "http://mapi_h21-master.hani.co.kr"
-    }
-};
-// create context
-const Context = /*#__PURE__*/ (0,react__WEBPACK_IMPORTED_MODULE_1__.createContext)({});
-// create reducer
-const reducer = (state = initialState, action)=>{
-    return state;
-};
-// create Provider component (High order component)
-const Provider = ({ children  })=>{
-    const { 0: state , 1: dispatch  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useReducer)(reducer, initialState);
-    const value = {
-        state,
-        dispatch
-    };
-    return(/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(Context.Provider, {
-        value: value,
-        children: children
-    }));
-};
+/***/ "./Component/view/Header.js":
+/*!**********************************!*\
+  !*** ./Component/view/Header.js ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Header)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n\nfunction Header() {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"header\", {\n        id: \"viewHeader\",\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n            className: \"header0\",\n            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"header1\",\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    className: \"header2\",\n                    children: [\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                            id: \"fb-root\"\n                        }, void 0, false, {\n                            fileName: \"/var/www/html/hani21Next/Component/view/Header.js\",\n                            lineNumber: 8,\n                            columnNumber: 7\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"ul\", {\n                            className: \"sns\",\n                            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                                className: \"facebook\",\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                    className: \"fb-like\",\n                                    \"data-href\": \"https://www.facebook.com/hankyoreh21\",\n                                    \"data-layout\": \"button_count\",\n                                    \"data-action\": \"like\",\n                                    \"data-show-faces\": \"false\",\n                                    \"data-share\": \"false\"\n                                }, void 0, false, {\n                                    fileName: \"/var/www/html/hani21Next/Component/view/Header.js\",\n                                    lineNumber: 10,\n                                    columnNumber: 33\n                                }, this)\n                            }, void 0, false, {\n                                fileName: \"/var/www/html/hani21Next/Component/view/Header.js\",\n                                lineNumber: 10,\n                                columnNumber: 8\n                            }, this)\n                        }, void 0, false, {\n                            fileName: \"/var/www/html/hani21Next/Component/view/Header.js\",\n                            lineNumber: 9,\n                            columnNumber: 7\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                            className: \"freind_site\",\n                            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"ul\", {\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                                        children: [\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                                href: \"//www.hani.co.kr\",\n                                                target: \"_blank\",\n                                                rel: \"noopener noreferal\",\n                                                title: \"\\uD55C\\uACA8\\uB808\",\n                                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"img\", {\n                                                    src: \"//img.hani.co.kr/section-image/15/h21/image/link_hani.png\",\n                                                    alt: \"\\uD55C\\uACA8\\uB80821\"\n                                                }, void 0, false, {\n                                                    fileName: \"/var/www/html/hani21Next/Component/view/Header.js\",\n                                                    lineNumber: 15,\n                                                    columnNumber: 94\n                                                }, this)\n                                            }, void 0, false, {\n                                                fileName: \"/var/www/html/hani21Next/Component/view/Header.js\",\n                                                lineNumber: 15,\n                                                columnNumber: 13\n                                            }, this),\n                                            \" \",\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"img\", {\n                                                src: \"//img.hani.co.kr/section-image/15/h21/image/link_split.png\",\n                                                alt: \"\\xb7\",\n                                                className: \"split\"\n                                            }, void 0, false, {\n                                                fileName: \"/var/www/html/hani21Next/Component/view/Header.js\",\n                                                lineNumber: 15,\n                                                columnNumber: 182\n                                            }, this)\n                                        ]\n                                    }, void 0, true, {\n                                        fileName: \"/var/www/html/hani21Next/Component/view/Header.js\",\n                                        lineNumber: 15,\n                                        columnNumber: 9\n                                    }, this),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                                        children: [\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                                href: \"http://www.cine21.com/\",\n                                                target: \"_blank\",\n                                                rel: \"noopener noreferal\",\n                                                title: \"\\uC528\\uB12421\",\n                                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"img\", {\n                                                    src: \"//img.hani.co.kr/section-image/15/h21/image/link_cine21.png\",\n                                                    alt: \"\\uC528\\uB12421\"\n                                                }, void 0, false, {\n                                                    fileName: \"/var/www/html/hani21Next/Component/view/Header.js\",\n                                                    lineNumber: 16,\n                                                    columnNumber: 101\n                                                }, this)\n                                            }, void 0, false, {\n                                                fileName: \"/var/www/html/hani21Next/Component/view/Header.js\",\n                                                lineNumber: 16,\n                                                columnNumber: 13\n                                            }, this),\n                                            \" \",\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"img\", {\n                                                src: \"//img.hani.co.kr/section-image/15/h21/image/link_split.png\",\n                                                alt: \"\\xb7\",\n                                                className: \"split\"\n                                            }, void 0, false, {\n                                                fileName: \"/var/www/html/hani21Next/Component/view/Header.js\",\n                                                lineNumber: 16,\n                                                columnNumber: 190\n                                            }, this)\n                                        ]\n                                    }, void 0, true, {\n                                        fileName: \"/var/www/html/hani21Next/Component/view/Header.js\",\n                                        lineNumber: 16,\n                                        columnNumber: 9\n                                    }, this),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                                        children: [\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                                href: \"http://www.economyinsight.co.kr/\",\n                                                target: \"_blank\",\n                                                rel: \"noopener noreferal\",\n                                                title: \"\\uC774\\uCF54\\uB178\\uBBF8\\uC778\\uC0AC\\uC774\\uD2B8\",\n                                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"img\", {\n                                                    src: \"//img.hani.co.kr/section-image/15/h21/image/link_economyinsight.png\",\n                                                    alt: \"\\uC774\\uCF54\\uB178\\uBBF8\\uC778\\uC0AC\\uC774\\uD2B8\"\n                                                }, void 0, false, {\n                                                    fileName: \"/var/www/html/hani21Next/Component/view/Header.js\",\n                                                    lineNumber: 17,\n                                                    columnNumber: 115\n                                                }, this)\n                                            }, void 0, false, {\n                                                fileName: \"/var/www/html/hani21Next/Component/view/Header.js\",\n                                                lineNumber: 17,\n                                                columnNumber: 13\n                                            }, this),\n                                            \" \",\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"img\", {\n                                                src: \"//img.hani.co.kr/section-image/15/h21/image/link_split.png\",\n                                                alt: \"\\xb7\",\n                                                className: \"split\"\n                                            }, void 0, false, {\n                                                fileName: \"/var/www/html/hani21Next/Component/view/Header.js\",\n                                                lineNumber: 17,\n                                                columnNumber: 216\n                                            }, this)\n                                        ]\n                                    }, void 0, true, {\n                                        fileName: \"/var/www/html/hani21Next/Component/view/Header.js\",\n                                        lineNumber: 17,\n                                        columnNumber: 9\n                                    }, this),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                            href: \"https://nuri.hani.co.kr\",\n                                            target: \"_blank\",\n                                            rel: \"noopener noreferal\",\n                                            title: \"\\uD558\\uB2C8\\uB204\\uB9AC\",\n                                            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"img\", {\n                                                src: \"//img.hani.co.kr/section-image/15/h21/image/link_haninuri.png\",\n                                                alt: \"\\uD558\\uB2C8\\uB204\\uB9AC\"\n                                            }, void 0, false, {\n                                                fileName: \"/var/www/html/hani21Next/Component/view/Header.js\",\n                                                lineNumber: 18,\n                                                columnNumber: 102\n                                            }, this)\n                                        }, void 0, false, {\n                                            fileName: \"/var/www/html/hani21Next/Component/view/Header.js\",\n                                            lineNumber: 18,\n                                            columnNumber: 13\n                                        }, this)\n                                    }, void 0, false, {\n                                        fileName: \"/var/www/html/hani21Next/Component/view/Header.js\",\n                                        lineNumber: 18,\n                                        columnNumber: 9\n                                    }, this)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/var/www/html/hani21Next/Component/view/Header.js\",\n                                lineNumber: 14,\n                                columnNumber: 8\n                            }, this)\n                        }, void 0, false, {\n                            fileName: \"/var/www/html/hani21Next/Component/view/Header.js\",\n                            lineNumber: 13,\n                            columnNumber: 7\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                            className: \"login_off\",\n                            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"ul\", {\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                            className: \"link3\",\n                                            href: \"https://member.hani.co.kr/login.php\",\n                                            title: \"\\uB85C\\uADF8\\uC778\",\n                                            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"img\", {\n                                                src: \"//img.hani.co.kr/section-image/15/h21/image/button_login.png\",\n                                                alt: \"\\uB85C\\uADF8\\uC778\"\n                                            }, void 0, false, {\n                                                fileName: \"/var/www/html/hani21Next/Component/view/Header.js\",\n                                                lineNumber: 29,\n                                                columnNumber: 90\n                                            }, this)\n                                        }, void 0, false, {\n                                            fileName: \"/var/www/html/hani21Next/Component/view/Header.js\",\n                                            lineNumber: 29,\n                                            columnNumber: 13\n                                        }, this)\n                                    }, void 0, false, {\n                                        fileName: \"/var/www/html/hani21Next/Component/view/Header.js\",\n                                        lineNumber: 29,\n                                        columnNumber: 9\n                                    }, this),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                            className: \"link4\",\n                                            href: \"https://member.hani.co.kr/join/join.php\",\n                                            title: \"\\uD68C\\uC6D0\\uAC00\\uC785\",\n                                            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"img\", {\n                                                src: \"//img.hani.co.kr/section-image/15/h21/image/button_join.png\",\n                                                alt: \"\\uD68C\\uC6D0\\uAC00\\uC785\"\n                                            }, void 0, false, {\n                                                fileName: \"/var/www/html/hani21Next/Component/view/Header.js\",\n                                                lineNumber: 30,\n                                                columnNumber: 94\n                                            }, this)\n                                        }, void 0, false, {\n                                            fileName: \"/var/www/html/hani21Next/Component/view/Header.js\",\n                                            lineNumber: 30,\n                                            columnNumber: 13\n                                        }, this)\n                                    }, void 0, false, {\n                                        fileName: \"/var/www/html/hani21Next/Component/view/Header.js\",\n                                        lineNumber: 30,\n                                        columnNumber: 9\n                                    }, this)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/var/www/html/hani21Next/Component/view/Header.js\",\n                                lineNumber: 28,\n                                columnNumber: 8\n                            }, this)\n                        }, void 0, false, {\n                            fileName: \"/var/www/html/hani21Next/Component/view/Header.js\",\n                            lineNumber: 27,\n                            columnNumber: 7\n                        }, this)\n                    ]\n                }, void 0, true, {\n                    fileName: \"/var/www/html/hani21Next/Component/view/Header.js\",\n                    lineNumber: 7,\n                    columnNumber: 6\n                }, this)\n            }, void 0, false, {\n                fileName: \"/var/www/html/hani21Next/Component/view/Header.js\",\n                lineNumber: 6,\n                columnNumber: 5\n            }, this)\n        }, void 0, false, {\n            fileName: \"/var/www/html/hani21Next/Component/view/Header.js\",\n            lineNumber: 5,\n            columnNumber: 4\n        }, this)\n    }, void 0, false, {\n        fileName: \"/var/www/html/hani21Next/Component/view/Header.js\",\n        lineNumber: 4,\n        columnNumber: 3\n    }, this);\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,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R0FBRyxFQUFDLCtEQUErRDtnREFBQ0MsR0FBRyxFQUFDLDBCQUFNOzs7OztvREFBVzs7Ozs7Z0RBQUk7Ozs7OzRDQUFLOzs7Ozs7b0NBQ3hMOzs7OztnQ0FDaEI7c0NBT04sOERBQUNoQixLQUFHOzRCQUFDQyxTQUFTLEVBQUMsV0FBVztzQ0FDekIsNEVBQUNDLElBQUU7O2tEQUNGLDhEQUFDQyxJQUFFO2tEQUFDLDRFQUFDTSxHQUFDOzRDQUFDUixTQUFTLEVBQUMsT0FBTzs0Q0FBQ1MsSUFBSSxFQUFDLHFDQUFxQzs0Q0FBQ0csS0FBSyxFQUFDLG9CQUFLO3NEQUFRLDRFQUFDQyxLQUFHO2dEQUFDQyxHQUFHLEVBQUMsOERBQThEO2dEQUFDQyxHQUFHLEVBQUMsb0JBQUs7Ozs7O29EQUFTOzs7OztnREFBSTs7Ozs7NENBQUs7a0RBQzlLLDhEQUFYYixJQUFFO2tEQUFDLDRFQUFDTSxHQUFDOzRDQUFDUixTQUFTLEVBQUMsT0FBTzs0Q0FBQ1MsSUFBSSxFQUFDLHlDQUF5Qzs0Q0FBQ0csS0FBSyxFQUFDLDBCQUFNO3NEQUFTLDRFQUFDQyxLQUFHO2dEQUFDQyxHQUFHLEVBQUMsNkRBQTZEO2dEQUFDQyxHQUFHLEVBQUMsMEJBQU07Ozs7O29EQUFHOzs7OztnREFBSTs7Ozs7NENBQUs7Ozs7OztvQ0FDOUs7Ozs7O2dDQUNBOzs7Ozs7d0JBQ0Q7Ozs7O29CQUNEOzs7OztnQkFDRDs7Ozs7WUFDRSxDQUNUO0NBQ0QiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9teS1hcHAvLi9Db21wb25lbnQvdmlldy9IZWFkZXIuanM/N2M5MCJdLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBIZWFkZXIoKSB7XG5cblx0cmV0dXJuIChcblx0XHQ8aGVhZGVyIGlkPVwidmlld0hlYWRlclwiPlxuXHRcdFx0PGRpdiBjbGFzc05hbWU9XCJoZWFkZXIwXCI+XG5cdFx0XHRcdDxkaXYgY2xhc3NOYW1lPVwiaGVhZGVyMVwiPlxuXHRcdFx0XHRcdDxkaXYgY2xhc3NOYW1lPVwiaGVhZGVyMlwiPlxuXHRcdFx0XHRcdFx0PGRpdiBpZD1cImZiLXJvb3RcIj48L2Rpdj5cblx0XHRcdFx0XHRcdDx1bCBjbGFzc05hbWU9XCJzbnNcIj5cblx0XHRcdFx0XHRcdFx0PGxpIGNsYXNzTmFtZT1cImZhY2Vib29rXCI+PGRpdiBjbGFzc05hbWU9XCJmYi1saWtlXCIgZGF0YS1ocmVmPVwiaHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL2hhbmt5b3JlaDIxXCIgZGF0YS1sYXlvdXQ9XCJidXR0b25fY291bnRcIiBkYXRhLWFjdGlvbj1cImxpa2VcIiBkYXRhLXNob3ctZmFjZXM9XCJmYWxzZVwiIGRhdGEtc2hhcmU9XCJmYWxzZVwiPjwvZGl2PlxuXHRcdFx0XHRcdFx0XHQ8L2xpPlxuXHRcdFx0XHRcdFx0PC91bD5cblx0XHRcdFx0XHRcdDxkaXYgY2xhc3NOYW1lPVwiZnJlaW5kX3NpdGVcIj5cblx0XHRcdFx0XHRcdFx0PHVsPlxuXHRcdFx0XHRcdFx0XHRcdDxsaT48YSBocmVmPVwiLy93d3cuaGFuaS5jby5rclwiIHRhcmdldD1cIl9ibGFua1wiICByZWw9XCJub29wZW5lciBub3JlZmVyYWxcIiB0aXRsZT1cIu2VnOqyqOugiFwiPjxpbWcgc3JjPVwiLy9pbWcuaGFuaS5jby5rci9zZWN0aW9uLWltYWdlLzE1L2gyMS9pbWFnZS9saW5rX2hhbmkucG5nXCIgYWx0PVwi7ZWc6rKo66CIMjFcIiAvPjwvYT4gPGltZyBzcmM9XCIvL2ltZy5oYW5pLmNvLmtyL3NlY3Rpb24taW1hZ2UvMTUvaDIxL2ltYWdlL2xpbmtfc3BsaXQucG5nXCIgYWx0PVwiwrdcIiBjbGFzc05hbWU9XCJzcGxpdFwiIC8+PC9saT5cblx0XHRcdFx0XHRcdFx0XHQ8bGk+PGEgaHJlZj1cImh0dHA6Ly93d3cuY2luZTIxLmNvbS9cIiB0YXJnZXQ9XCJfYmxhbmtcIiAgcmVsPVwibm9vcGVuZXIgbm9yZWZlcmFsXCIgdGl0bGU9XCLslKjrhKQyMVwiPjxpbWcgc3JjPVwiLy9pbWcuaGFuaS5jby5rci9zZWN0aW9uLWltYWdlLzE1L2gyMS9pbWFnZS9saW5rX2NpbmUyMS5wbmdcIiBhbHQ9XCLslKjrhKQyMVwiIC8+PC9hPiA8aW1nIHNyYz1cIi8vaW1nLmhhbmkuY28ua3Ivc2VjdGlvbi1pbWFnZS8xNS9oMjEvaW1hZ2UvbGlua19zcGxpdC5wbmdcIiBhbHQ9XCLCt1wiIGNsYXNzTmFtZT1cInNwbGl0XCIgLz48L2xpPlxuXHRcdFx0XHRcdFx0XHRcdDxsaT48YSBocmVmPVwiaHR0cDovL3d3dy5lY29ub215aW5zaWdodC5jby5rci9cIiB0YXJnZXQ9XCJfYmxhbmtcIiAgcmVsPVwibm9vcGVuZXIgbm9yZWZlcmFsXCIgdGl0bGU9XCLsnbTsvZTrhbjrr7jsnbjsgqzsnbTtirhcIj48aW1nIHNyYz1cIi8vaW1nLmhhbmkuY28ua3Ivc2VjdGlvbi1pbWFnZS8xNS9oMjEvaW1hZ2UvbGlua19lY29ub215aW5zaWdodC5wbmdcIiBhbHQ9XCLsnbTsvZTrhbjrr7jsnbjsgqzsnbTtirhcIiAvPjwvYT4gPGltZyBzcmM9XCIvL2ltZy5oYW5pLmNvLmtyL3NlY3Rpb24taW1hZ2UvMTUvaDIxL2ltYWdlL2xpbmtfc3BsaXQucG5nXCIgYWx0PVwiwrdcIiBjbGFzc05hbWU9XCJzcGxpdFwiIC8+PC9saT5cblx0XHRcdFx0XHRcdFx0XHQ8bGk+PGEgaHJlZj1cImh0dHBzOi8vbnVyaS5oYW5pLmNvLmtyXCIgdGFyZ2V0PVwiX2JsYW5rXCIgIHJlbD1cIm5vb3BlbmVyIG5vcmVmZXJhbFwiIHRpdGxlPVwi7ZWY64uI64iE66asXCI+PGltZyBzcmM9XCIvL2ltZy5oYW5pLmNvLmtyL3NlY3Rpb24taW1hZ2UvMTUvaDIxL2ltYWdlL2xpbmtfaGFuaW51cmkucG5nXCIgYWx0PVwi7ZWY64uI64iE66asXCIgLz48L2E+PC9saT5cblx0XHRcdFx0XHRcdFx0PC91bD5cblx0XHRcdFx0XHRcdDwvZGl2PlxuXHRcdFx0XHRcdFx0ey8qIDxkaXYgY2xhc3NOYW1lPVwibG9naW5fb25cdGhpZGRlblwiPlxuXHRcdFx0XHRcdFx0XHQ8dWw+XG5cdFx0XHRcdFx0XHRcdFx0PGxpPjxhIGNsYXNzTmFtZT1cImxpbmsxXCIgaHJlZj1cImh0dHBzOi8vbWVtYmVyLmhhbmkuY28ua3IvbG9nb3V0LnBocD91cmw9PD89dXJsZW5jb2RlKCR0aGlzLT51cmwpPz5cIiB0aXRsZT1cIuuhnOq3uOyVhOybg1wiPjxpbWcgc3JjPVwiLy9pbWcuaGFuaS5jby5rci9zZWN0aW9uLWltYWdlLzE1L2gyMS9pbWFnZS9idXR0b25fbG9nb3V0LnBuZ1wiIGFsdD1cIuuhnOq3uOyVhOybg1wiIC8+PC9hPjwvbGk+XG5cdFx0XHRcdFx0XHRcdFx0PGxpPjxhIGNsYXNzTmFtZT1cImxpbmsyXCIgaHJlZj1cImh0dHBzOi8vbWVtYmVyLmhhbmkuY28ua3IvaGVscC91c2VyL2luZm9fZWRpdC5waHBcIiB0aXRsZT1cIuygleuztOyImOyglVwiPjxpbWcgc3JjPVwiLy9pbWcuaGFuaS5jby5rci9zZWN0aW9uLWltYWdlLzE1L2gyMS9pbWFnZS9idXR0b25fbW9kaWZ5LnBuZ1wiIGFsdD1cIuygleuztOyImOyglVwiIC8+PC9hPjwvbGk+XG5cdFx0XHRcdFx0XHRcdDwvdWw+XG5cdFx0XHRcdFx0XHQ8L2Rpdj4gKi99XG5cdFx0XHRcdFx0XHQ8ZGl2IGNsYXNzTmFtZT1cImxvZ2luX29mZlwiPlxuXHRcdFx0XHRcdFx0XHQ8dWw+XG5cdFx0XHRcdFx0XHRcdFx0PGxpPjxhIGNsYXNzTmFtZT1cImxpbmszXCIgaHJlZj1cImh0dHBzOi8vbWVtYmVyLmhhbmkuY28ua3IvbG9naW4ucGhwXCIgdGl0bGU9XCLroZzqt7jsnbhcIlx0PjxpbWcgc3JjPVwiLy9pbWcuaGFuaS5jby5rci9zZWN0aW9uLWltYWdlLzE1L2gyMS9pbWFnZS9idXR0b25fbG9naW4ucG5nXCIgYWx0PVwi66Gc6re47J24XCIgLz48L2E+PC9saT5cblx0XHRcdFx0XHRcdFx0XHQ8bGk+PGEgY2xhc3NOYW1lPVwibGluazRcIiBocmVmPVwiaHR0cHM6Ly9tZW1iZXIuaGFuaS5jby5rci9qb2luL2pvaW4ucGhwXCIgdGl0bGU9XCLtmozsm5DqsIDsnoVcIj48aW1nIHNyYz1cIi8vaW1nLmhhbmkuY28ua3Ivc2VjdGlvbi1pbWFnZS8xNS9oMjEvaW1hZ2UvYnV0dG9uX2pvaW4ucG5nXCIgYWx0PVwi7ZqM7JuQ6rCA7J6FXCIgLz48L2E+PC9saT5cblx0XHRcdFx0XHRcdFx0PC91bD5cblx0XHRcdFx0XHRcdDwvZGl2PlxuXHRcdFx0XHRcdDwvZGl2PlxuXHRcdFx0XHQ8L2Rpdj5cblx0XHRcdDwvZGl2PlxuXHRcdDwvaGVhZGVyPlxuXHQpXG59XG4iXSwibmFtZXMiOlsiSGVhZGVyIiwiaGVhZGVyIiwiaWQiLCJkaXYiLCJjbGFzc05hbWUiLCJ1bCIsImxpIiwiZGF0YS1ocmVmIiwiZGF0YS1sYXlvdXQiLCJkYXRhLWFjdGlvbiIsImRhdGEtc2hvdy1mYWNlcyIsImRhdGEtc2hhcmUiLCJhIiwiaHJlZiIsInRhcmdldCIsInJlbCIsInRpdGxlIiwiaW1nIiwic3JjIiwiYWx0Il0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./Component/view/Header.js\n");
+
+/***/ }),
+
+/***/ "./context/index.js":
+/*!**************************!*\
+  !*** ./context/index.js ***!
+  \**************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Context\": () => (/* binding */ Context),\n/* harmony export */   \"Provider\": () => (/* binding */ Provider)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n\n\n//initial state\nconst initialState = {\n    config_url: {\n        SVC_PATH: \"//img.hani.co.kr/section-image/15/h21\",\n        SVC_PATH_21: \"//img.hani.co.kr/section-image/21/h21\",\n        WEB_URL: \"http://h21.hani.co.kr\",\n        JSON_URL: \"http://mapi_h21-master.hani.co.kr\"\n    }\n};\n// create context\nconst Context = /*#__PURE__*/ (0,react__WEBPACK_IMPORTED_MODULE_1__.createContext)({});\n// create reducer\nconst reducer = (state = initialState, action)=>{\n    return state;\n};\n// create Provider component (High order component)\nconst Provider = ({ children  })=>{\n    const { 0: state , 1: dispatch  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useReducer)(reducer, initialState);\n    const value = {\n        state,\n        dispatch\n    };\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Context.Provider, {\n        value: value,\n        children: children\n    }, void 0, false, {\n        fileName: \"/var/www/html/hani21Next/context/index.js\",\n        lineNumber: 24,\n        columnNumber: 10\n    }, undefined);\n};\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb250ZXh0L2luZGV4LmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7OztBQUFBO0FBQWtEO0FBRWxELGVBQWU7QUFDZixNQUFNRSxZQUFZLEdBQUc7SUFDbkJDLFVBQVUsRUFBRTtRQUNWQyxRQUFRLEVBQUUsdUNBQXVDO1FBQ2pEQyxXQUFXLEVBQUUsdUNBQXVDO1FBQ3BEQyxPQUFPLEVBQUUsdUJBQXVCO1FBQ2hDQyxRQUFRLEVBQUUsbUNBQW1DO0tBQzlDO0NBQ0Y7QUFFRCxpQkFBaUI7QUFDakIsTUFBTUMsT0FBTyxpQkFBR1Isb0RBQWEsQ0FBQyxFQUFFLENBQUM7QUFFakMsaUJBQWlCO0FBQ2pCLE1BQU1TLE9BQU8sR0FBRyxDQUFDQyxLQUFLLEdBQUdSLFlBQVksRUFBRVMsTUFBTSxHQUFLO0lBQzlDLE9BQU9ELEtBQUssQ0FBQztDQUNkO0FBQ0gsbURBQW1EO0FBQ25ELE1BQU1FLFFBQVEsR0FBRyxDQUFDLEVBQUVDLFFBQVEsR0FBRSxHQUFLO0lBQ2pDLE1BQU0sRUFyQlIsR0FxQlNILEtBQUssR0FyQmQsR0FxQmdCSSxRQUFRLE1BQUliLGlEQUFVLENBQUNRLE9BQU8sRUFBRVAsWUFBWSxDQUFDO0lBQzNELE1BQU1hLEtBQUssR0FBRztRQUFFTCxLQUFLO1FBQUVJLFFBQVE7S0FBRTtJQUNqQyxxQkFBTyw4REFBQ04sT0FBTyxDQUFDSSxRQUFRO1FBQUNHLEtBQUssRUFBRUEsS0FBSztrQkFBR0YsUUFBUTs7Ozs7aUJBQW9CLENBQUM7Q0FDdEU7QUFFNEIiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9teS1hcHAvLi9jb250ZXh0L2luZGV4LmpzPzVkMjciXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgY3JlYXRlQ29udGV4dCwgdXNlUmVkdWNlciB9IGZyb20gXCJyZWFjdFwiO1xuXG4vL2luaXRpYWwgc3RhdGVcbmNvbnN0IGluaXRpYWxTdGF0ZSA9IHtcbiAgY29uZmlnX3VybDoge1xuICAgIFNWQ19QQVRIOiBcIi8vaW1nLmhhbmkuY28ua3Ivc2VjdGlvbi1pbWFnZS8xNS9oMjFcIixcbiAgICBTVkNfUEFUSF8yMTogXCIvL2ltZy5oYW5pLmNvLmtyL3NlY3Rpb24taW1hZ2UvMjEvaDIxXCIsXG4gICAgV0VCX1VSTDogXCJodHRwOi8vaDIxLmhhbmkuY28ua3JcIixcbiAgICBKU09OX1VSTDogXCJodHRwOi8vbWFwaV9oMjEtbWFzdGVyLmhhbmkuY28ua3JcIlxuICB9LFxufTtcblxuLy8gY3JlYXRlIGNvbnRleHRcbmNvbnN0IENvbnRleHQgPSBjcmVhdGVDb250ZXh0KHt9KTtcblxuLy8gY3JlYXRlIHJlZHVjZXJcbmNvbnN0IHJlZHVjZXIgPSAoc3RhdGUgPSBpbml0aWFsU3RhdGUsIGFjdGlvbikgPT4ge1xuICAgIHJldHVybiBzdGF0ZTtcbiAgfTtcbi8vIGNyZWF0ZSBQcm92aWRlciBjb21wb25lbnQgKEhpZ2ggb3JkZXIgY29tcG9uZW50KVxuY29uc3QgUHJvdmlkZXIgPSAoeyBjaGlsZHJlbiB9KSA9PiB7XG4gIGNvbnN0IFtzdGF0ZSwgZGlzcGF0Y2hdID0gdXNlUmVkdWNlcihyZWR1Y2VyLCBpbml0aWFsU3RhdGUpO1xuICBjb25zdCB2YWx1ZSA9IHsgc3RhdGUsIGRpc3BhdGNoIH07XG4gIHJldHVybiA8Q29udGV4dC5Qcm92aWRlciB2YWx1ZT17dmFsdWV9PntjaGlsZHJlbn08L0NvbnRleHQuUHJvdmlkZXI+O1xufTtcblxuZXhwb3J0IHsgQ29udGV4dCwgUHJvdmlkZXIgfTsiXSwibmFtZXMiOlsiY3JlYXRlQ29udGV4dCIsInVzZVJlZHVjZXIiLCJpbml0aWFsU3RhdGUiLCJjb25maWdfdXJsIiwiU1ZDX1BBVEgiLCJTVkNfUEFUSF8yMSIsIldFQl9VUkwiLCJKU09OX1VSTCIsIkNvbnRleHQiLCJyZWR1Y2VyIiwic3RhdGUiLCJhY3Rpb24iLCJQcm92aWRlciIsImNoaWxkcmVuIiwiZGlzcGF0Y2giLCJ2YWx1ZSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./context/index.js\n");
+
+/***/ }),
+
+/***/ "./pages/_app.tsx":
+/*!************************!*\
+  !*** ./pages/_app.tsx ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ MyApp)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/globals.css */ \"./styles/globals.css\");\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_globals_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _Component_view_Footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Component/view/Footer */ \"./Component/view/Footer.js\");\n/* harmony import */ var _Component_view_Header__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Component/view/Header */ \"./Component/view/Header.js\");\n/* harmony import */ var _context__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../context */ \"./context/index.js\");\n\n\n\n\n\nfunction MyApp({ Component , pageProps  }) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_context__WEBPACK_IMPORTED_MODULE_4__.Provider, {\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n            id: \"viewBase\",\n            className: \"css3 W_M1M2L W_M2L W_L\",\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_Component_view_Header__WEBPACK_IMPORTED_MODULE_3__[\"default\"], {}, void 0, false, {\n                    fileName: \"/var/www/html/hani21Next/pages/_app.tsx\",\n                    lineNumber: 17,\n                    columnNumber: 9\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Component, {\n                    ...pageProps\n                }, void 0, false, {\n                    fileName: \"/var/www/html/hani21Next/pages/_app.tsx\",\n                    lineNumber: 18,\n                    columnNumber: 9\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_Component_view_Footer__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {}, void 0, false, {\n                    fileName: \"/var/www/html/hani21Next/pages/_app.tsx\",\n                    lineNumber: 19,\n                    columnNumber: 9\n                }, this)\n            ]\n        }, void 0, true, {\n            fileName: \"/var/www/html/hani21Next/pages/_app.tsx\",\n            lineNumber: 16,\n            columnNumber: 7\n        }, this)\n    }, void 0, false, {\n        fileName: \"/var/www/html/hani21Next/pages/_app.tsx\",\n        lineNumber: 15,\n        columnNumber: 5\n    }, this);\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9fYXBwLnRzeC5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7OztBQUFBO0FBQzhCO0FBQ2U7QUFDQTtBQUNSO0FBUXRCLFNBQVNHLEtBQUssQ0FBQyxFQUFFQyxTQUFTLEdBQUVDLFNBQVMsR0FBWSxFQUFFO0lBQ2hFLHFCQUNFLDhEQUFDSCw4Q0FBUTtrQkFDUCw0RUFBQ0ksS0FBRztZQUFDQyxFQUFFLEVBQUMsVUFBVTtZQUFDQyxTQUFTLEVBQUMsd0JBQXdCOzs4QkFDbkQsOERBQUNQLDhEQUFNOzs7O3dCQUFHOzhCQUNWLDhEQUFDRyxTQUFTO29CQUFFLEdBQUdDLFNBQVM7Ozs7O3dCQUFJOzhCQUM1Qiw4REFBQ0wsOERBQU07Ozs7d0JBQUc7Ozs7OztnQkFDTjs7Ozs7WUFDRyxDQUNYO0NBQ0giLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9teS1hcHAvLi9wYWdlcy9fYXBwLnRzeD8yZmJlIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB0eXBlIHsgQXBwUHJvcHMgfSBmcm9tICduZXh0L2FwcCc7XG5pbXBvcnQgJy4uL3N0eWxlcy9nbG9iYWxzLmNzcydcbmltcG9ydCBGb290ZXIgZnJvbSAnLi4vQ29tcG9uZW50L3ZpZXcvRm9vdGVyJ1xuaW1wb3J0IEhlYWRlciBmcm9tICcuLi9Db21wb25lbnQvdmlldy9IZWFkZXInXG5pbXBvcnQgeyBQcm92aWRlciB9IGZyb20gJy4uL2NvbnRleHQnXG5cbmRlY2xhcmUgZ2xvYmFsIHtcbiAgaW50ZXJmYWNlIFdpbmRvdyB7XG4gICAgS2FrYW86IGFueTtcbiAgfVxufVxuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBNeUFwcCh7IENvbXBvbmVudCwgcGFnZVByb3BzIH06IEFwcFByb3BzKSB7XG4gIHJldHVybiAoXG4gICAgPFByb3ZpZGVyPlxuICAgICAgPGRpdiBpZD1cInZpZXdCYXNlXCIgY2xhc3NOYW1lPVwiY3NzM1x0V19NMU0yTCBXX00yTCBXX0xcIj5cbiAgICAgICAgPEhlYWRlciAvPlxuICAgICAgICA8Q29tcG9uZW50IHsuLi5wYWdlUHJvcHN9IC8+XG4gICAgICAgIDxGb290ZXIgLz5cbiAgICAgIDwvZGl2PlxuICAgIDwvUHJvdmlkZXI+XG4gICk7XG59Il0sIm5hbWVzIjpbIkZvb3RlciIsIkhlYWRlciIsIlByb3ZpZGVyIiwiTXlBcHAiLCJDb21wb25lbnQiLCJwYWdlUHJvcHMiLCJkaXYiLCJpZCIsImNsYXNzTmFtZSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./pages/_app.tsx\n");
+
+/***/ }),
+
+/***/ "./styles/globals.css":
+/*!****************************!*\
+  !*** ./styles/globals.css ***!
+  \****************************/
+/***/ (() => {
 
 
 
 /***/ }),
 
-/***/ 9292:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ MyApp)
-});
-
-// EXTERNAL MODULE: external "react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(997);
-;// CONCATENATED MODULE: ./Component/view/Footer.js
-
-function Footer() {
-    return(/*#__PURE__*/ jsx_runtime_.jsx("footer", {
-        id: "viewFooter",
-        children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-            className: "footer0",
-            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: "footer1",
-                children: [
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("ul", {
-                        className: "link",
-                        children: [
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                                children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                        href: "https://member.hani.co.kr/help/rules/mypage_help_copyright.hani",
-                                        target: "_blank",
-                                        rel: "noopener noreferal",
-                                        children: "저작권 안내"
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                        children: "|"
-                                    })
-                                ]
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                                children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                        href: "https://member.hani.co.kr/help/rules/mypage_help_memberTerms.hani",
-                                        target: "_blank",
-                                        rel: "noopener noreferal",
-                                        children: "회원약관"
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                        children: "|"
-                                    })
-                                ]
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                                children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                        href: "https://member.hani.co.kr/help/rules/mypage_help_privatePolicy.hani",
-                                        target: "_blank",
-                                        rel: "noopener noreferal",
-                                        children: "개인정보 취급방침"
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                        children: "|"
-                                    })
-                                ]
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                                children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                        href: "https://member.hani.co.kr/help/rules/mypage_help_copyright.hani?type=intellectual_property_protection",
-                                        target: "_blank",
-                                        rel: "noopener noreferal",
-                                        children: "지적재산보호정책"
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                        children: "|"
-                                    })
-                                ]
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                    href: "https://member.hani.co.kr/help/rules/mypage_help_emailPolicy.hani",
-                                    target: "_blank",
-                                    rel: "noopener noreferal",
-                                    children: "이메일주소 무단수집거부"
-                                })
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("ul", {
-                        className: "copyright-info",
-                        children: [
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                                children: [
-                                    "한겨레21  ",
-                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                        children: "|"
-                                    })
-                                ]
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                                children: [
-                                    "등록번호:서울, 아01707  ",
-                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                        children: "|"
-                                    })
-                                ]
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                                children: [
-                                    "등록일자:2017-7-19 ",
-                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                        children: "|"
-                                    })
-                                ]
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                                children: [
-                                    "발행인:김현대 ",
-                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                        children: "|"
-                                    })
-                                ]
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                                children: [
-                                    "편집인:강대성  ",
-                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                        children: "|"
-                                    })
-                                ]
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                                children: [
-                                    "청소년보호책임자:강대성 ",
-                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                        children: "|"
-                                    })
-                                ]
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                                children: [
-                                    "주소:서울특별시 마포구 효창목길 6 ",
-                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                        children: "|"
-                                    })
-                                ]
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                children: "고객센터:1566-9595"
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                                className: "copyright",
-                                children: [
-                                    "ⓒ ",
-                                    /*#__PURE__*/ jsx_runtime_.jsx("strong", {
-                                        children: "The Hankyoreh."
-                                    }),
-                                    " All Rights Reserved."
-                                ]
-                            })
-                        ]
-                    })
-                ]
-            })
-        })
-    }));
-};
-
-;// CONCATENATED MODULE: ./Component/view/Header.js
-
-function Header() {
-    return(/*#__PURE__*/ jsx_runtime_.jsx("header", {
-        id: "viewHeader",
-        children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-            className: "header0",
-            children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                className: "header1",
-                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                    className: "header2",
-                    children: [
-                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                            id: "fb-root"
-                        }),
-                        /*#__PURE__*/ jsx_runtime_.jsx("ul", {
-                            className: "sns",
-                            children: /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                className: "facebook",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                    className: "fb-like",
-                                    "data-href": "https://www.facebook.com/hankyoreh21",
-                                    "data-layout": "button_count",
-                                    "data-action": "like",
-                                    "data-show-faces": "false",
-                                    "data-share": "false"
-                                })
-                            })
-                        }),
-                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                            className: "freind_site",
-                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("ul", {
-                                children: [
-                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                                        children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                href: "//www.hani.co.kr",
-                                                target: "_blank",
-                                                rel: "noopener noreferal",
-                                                title: "한겨레",
-                                                children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                    src: "//img.hani.co.kr/section-image/15/h21/image/link_hani.png",
-                                                    alt: "한겨레21"
-                                                })
-                                            }),
-                                            " ",
-                                            /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                src: "//img.hani.co.kr/section-image/15/h21/image/link_split.png",
-                                                alt: "\xb7",
-                                                className: "split"
-                                            })
-                                        ]
-                                    }),
-                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                                        children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                href: "http://www.cine21.com/",
-                                                target: "_blank",
-                                                rel: "noopener noreferal",
-                                                title: "씨네21",
-                                                children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                    src: "//img.hani.co.kr/section-image/15/h21/image/link_cine21.png",
-                                                    alt: "씨네21"
-                                                })
-                                            }),
-                                            " ",
-                                            /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                src: "//img.hani.co.kr/section-image/15/h21/image/link_split.png",
-                                                alt: "\xb7",
-                                                className: "split"
-                                            })
-                                        ]
-                                    }),
-                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                                        children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                href: "http://www.economyinsight.co.kr/",
-                                                target: "_blank",
-                                                rel: "noopener noreferal",
-                                                title: "이코노미인사이트",
-                                                children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                    src: "//img.hani.co.kr/section-image/15/h21/image/link_economyinsight.png",
-                                                    alt: "이코노미인사이트"
-                                                })
-                                            }),
-                                            " ",
-                                            /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                src: "//img.hani.co.kr/section-image/15/h21/image/link_split.png",
-                                                alt: "\xb7",
-                                                className: "split"
-                                            })
-                                        ]
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                            href: "https://nuri.hani.co.kr",
-                                            target: "_blank",
-                                            rel: "noopener noreferal",
-                                            title: "하니누리",
-                                            children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                src: "//img.hani.co.kr/section-image/15/h21/image/link_haninuri.png",
-                                                alt: "하니누리"
-                                            })
-                                        })
-                                    })
-                                ]
-                            })
-                        }),
-                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                            className: "login_off",
-                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("ul", {
-                                children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                            className: "link3",
-                                            href: "https://member.hani.co.kr/login.php",
-                                            title: "로그인",
-                                            children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                src: "//img.hani.co.kr/section-image/15/h21/image/button_login.png",
-                                                alt: "로그인"
-                                            })
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                            className: "link4",
-                                            href: "https://member.hani.co.kr/join/join.php",
-                                            title: "회원가입",
-                                            children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                src: "//img.hani.co.kr/section-image/15/h21/image/button_join.png",
-                                                alt: "회원가입"
-                                            })
-                                        })
-                                    })
-                                ]
-                            })
-                        })
-                    ]
-                })
-            })
-        })
-    }));
-};
-
-// EXTERNAL MODULE: ./context/index.js
-var context = __webpack_require__(5144);
-;// CONCATENATED MODULE: ./pages/_app.tsx
-
-
-
-
-
-function MyApp({ Component , pageProps  }) {
-    return(/*#__PURE__*/ jsx_runtime_.jsx(context/* Provider */.z, {
-        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-            id: "viewBase",
-            className: "css3 W_M1M2L W_M2L W_L",
-            children: [
-                /*#__PURE__*/ jsx_runtime_.jsx(Header, {}),
-                /*#__PURE__*/ jsx_runtime_.jsx(Component, {
-                    ...pageProps
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx(Footer, {})
-            ]
-        })
-    }));
-};
-
-
-/***/ }),
-
-/***/ 6689:
+/***/ "react":
+/*!************************!*\
+  !*** external "react" ***!
+  \************************/
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("react");
 
 /***/ }),
 
-/***/ 997:
+/***/ "react/jsx-dev-runtime":
+/*!****************************************!*\
+  !*** external "react/jsx-dev-runtime" ***!
+  \****************************************/
 /***/ ((module) => {
 
-module.exports = require("react/jsx-runtime");
+"use strict";
+module.exports = require("react/jsx-dev-runtime");
 
 /***/ })
 
@@ -410,7 +95,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__(9292));
+var __webpack_exports__ = (__webpack_exec__("./pages/_app.tsx"));
 module.exports = __webpack_exports__;
 
 })();

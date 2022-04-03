@@ -26,7 +26,7 @@ export default function HeaderKisa ({ navi }) {
             <div id="title_bar">
                 <div className="title0">
                     <div className="title1">
-                        <div className="logo"><Link href="/"><img src={`${SVC_PATH}/image/logo_h21.png`} alt="한겨레21" title="한겨레21" /></Link></div>
+                        <div className="logo"><Link href="/"><a><img src={`${SVC_PATH}/image/logo_h21.png`} alt="한겨레21" title="한겨레21" /></a></Link></div>
                         <SearchForm />
                     </div>
                 </div>

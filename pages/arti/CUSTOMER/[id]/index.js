@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { useRouter } from "next/router";
 import dynamic from 'next/dynamic';
 import HeaderOther from "../../../../Component/view/HeaderOther";
@@ -6,8 +7,21 @@ import Nothing from "../../../../Component/Nothing";
 
 export default function Section() {
     const router = useRouter();
-    const pageurl = router.query.id;
-    const DynamicComponent = dynamic(() => import(`../../../../Component/view/ViewCustomer_${pageurl}`));
+    let pageurl = router.query.id;
+    const Test = () => {
+        useEffect(() => {
+            if(!router.isReady) {
+                pageurl = '';
+                return pageurl;
+            }
+        }, [router.isReady]);
+        if(pageurl !== undefined){
+            const DynamicComponent = dynamic(() => import(`../../../../Component/view/ViewCustomer_${pageurl}`));
+            return <DynamicComponent />
+        }
+        console.log(pageurl);
+    };
+
     return (
         <>
             <Seo title={"고객센터"} />
@@ -15,9 +29,7 @@ export default function Section() {
                 <div className="main0">
                     <div className="main1">
                         <HeaderOther navi={["고객센터"]} />
-                        {
-                            (pageurl != NaN || pageurl != undefined) ? <DynamicComponent /> : <Nothing />
-                        }
+                        {Test()}
                     </div>
                 </div>
             </div>

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import dynamic from 'next/dynamic';
+import { useEffect } from 'react';
 import { useRouter } from "next/router";
 import HeaderOther from "../../../../Component/view/HeaderOther";
 import Seo from "../../../../Component/Seo";
@@ -7,10 +8,22 @@ import Nothing from "../../../../Component/Nothing";
 
 export default function Index() {
     const router = useRouter();
-    const pagenumber = router.query.id;
+    let pagenumber = router.query.id;
     const page_name_list = ['한겨레21소개', '제작과정', '광고안내'];
-    const ccName = parseInt(pagenumber);
-    const DynamicComponent = dynamic(() => import(`../../../../Component/section/ViewIntroduction${ccName}`));
+    const Test = () => {
+        useEffect(() => {
+            if(!router.isReady) {
+                pagenumber = '';
+                return pagenumber;
+            }
+        }, [router.isReady]);
+        if(pagenumber !== undefined){
+            const ccName = parseInt(pagenumber);
+            const DynamicComponent = dynamic(() => import(`../../../../Component/section/ViewIntroduction${ccName}`));
+            return <DynamicComponent />
+        }
+    }
+
     return (
         <>
             <Seo title={"소개"} />
@@ -33,9 +46,10 @@ export default function Index() {
                                     </ul>
                                 </div>
                                 <div className="contents1">
-                                    {
-                                        (ccName != NaN || ccName != undefined) ? <DynamicComponent /> : <Nothing />
-                                    }
+                                    {Test()}
+                                    {/*{*/}
+                                    {/*    (ccName != NaN || ccName != undefined) ? <DynamicComponent /> : <Nothing />*/}
+                                    {/*}*/}
                                 </div>
                             </div>
                         </div>
