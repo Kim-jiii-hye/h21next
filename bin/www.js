@@ -3,7 +3,7 @@ const next = require('next');
 
 const dev = true
 const app = next({ dev })
-const handle = app.getRequestHandler()
+const handle = app.getRequestHandler() //next routing
 
 app
     .prepare()
@@ -19,4 +19,4 @@ app
         })
     })
 
-require('./next-server');
+// require('./next-server');
