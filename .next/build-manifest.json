@@ -30,11 +30,6 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/arti/[sec1]": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/arti/[sec1].js"
-    ],
     "/arti/[sec1]/[sec2]/[kisanum]": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
