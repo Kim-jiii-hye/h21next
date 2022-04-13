@@ -1,22 +1,23 @@
 const express = require('express');
 const next = require('next');
+const path = require('path');
 
-const dev = true
-const app = next({ dev })
-const handle = app.getRequestHandler() //next routing
+const dev = process.env.NODE_ENV !== "production";
+const prod = process.env.NODE_ENV === "production";
 
-app
-    .prepare()
-    .then(() => {
-        const server = express()
+const app = next({ dev });
+const handle = app.getRequestHandler();
 
-        server.get('*', (req, res) => {
-            return handle(req, res)
-        })
-        server.listen(8000, err => {
-            if (err) throw err
-            console.log('>Ready on http://localhost:8000')
-        })
+app.prepare().then(() => {
+    const server = express();
+
+    server.use('/', express.static(path.join(__dirname, 'public')));
+    server.use(express.json());
+    server.use(express.urlencoded({ extended: true }));
+
+    server.get('*', (req, res) => handle(req, res));
+
+    server.listen(prod ? process.env.PORT : 8000, () => {
+        console.log(`running port ${prod ? process.env.PORT : 8000}`);
     })
-
-// require('./next-server');
+})
